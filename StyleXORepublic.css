@@ -1,0 +1,66 @@
+body{
+	background-color: #E3E3E3;
+}
+h1{
+	text-align: center;
+}
+li{
+	list-style: none;
+    text-align: center;
+
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin: 10px;
+  transition: :all 2s;
+}
+
+img:hover {
+	transform: scale(1.01);
+}
+.p1{
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+h3{
+	text-align: center;
+}
+
+.TrilogyColumn {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.TrilogyRow {
+	display: flex;
+    clear:both;
+    content: "";
+}
+*{
+	box-sizing: border-box;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.AfterHoursColumn {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.AfterHoursRow {
+	display: flex;
+    clear:both;
+    content: "";
+   }

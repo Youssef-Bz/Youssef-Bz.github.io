@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+    <link rel="stylesheet" type="text/css" href="StyleRegister.css">
+</head>
+<body>
+   <header> 
+   	<h1> Register: </h1>
+  
+   	   
+   <!-- Use GET not POST-->
+    <div class="form">  
+    <form name ="Form1" method="get"> 
+       First name: <input type="text"  name="firstname" required><br>
+       Last name: <input type="text" name="lastname" required><br>
+       Gender: <br>
+               <input type="Radio" name="Gender" value="Male">Male <br>
+               <input type="Radio" name="Gender" value="Female">Female <br>
+               <input type="Radio" name="Gender" value="Other">Other <br>
+       Email: <input type="Email" name="Email" required><br>
+       Phone Number <input type="Number" required> <br>
+       Birthday <input type="date" name="Birthday" required> <br>  
+         
+       Lives in: <br>
+       <select name="Lives in">
+               <option value="La Marsa" name="La Marsa" > Marsa </option>
+               <option value="Sidi Bousaid" name="Sidi Bousaid" > Sidi Bousaid </option>
+               <option value="Carthage" name="Carthage" > Carthage </option>
+               <option value="Ain Zaghouen" name="Ain Zaghouen" > Ain Zaghouen </option>
+               <option value="Lac 2" name="Lac 2" > Lac 2 </option>
+               <option value="L'Aouina" name="L'Aouina" > L'aouina </option>
+     </select><br>
+    
+        Password: <input type="password" name="password" min="8"><br>
+    <input type="submit">
+    </form>
+    </div>
+    <a href="MainPage.html"><h3> Return to main page </h3></a>
+</body>
+
+</html>
